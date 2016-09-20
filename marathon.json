@@ -5,7 +5,7 @@
   "instances": 1,
   "container": {
     "docker": {
-      "image": "mbb2kn7qss3pfpxy/mesos-tutorial:latest",
+      "image": "mbb2kn7qss3pfpxy/mesos-tutorial:2b9b27d1308dcc15fb13fdef2b93abf86c1b96a3",
       "portMappings": [
         {
           "containerPort": 80,
