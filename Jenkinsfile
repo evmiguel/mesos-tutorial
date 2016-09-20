@@ -35,7 +35,7 @@ node {
         forceUpdate: false,
         credentialsId: 'dcos-token',
         filename: 'marathon.json',
-        appId: 'nginx-mesosphere',
-        docker: "mesosphere/vny:${gitCommit()}".toString()
+        appId: 'nginx-mbb2kn7qss3pfpxy',
+        docker: "mbb2kn7qss3pfpxy/mesos-tutorial:${gitCommit()}".toString()
     )
 }
