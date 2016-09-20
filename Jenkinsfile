@@ -33,7 +33,7 @@ node {
     marathon(
         url: 'http://marathon.mesos:8080',
         forceUpdate: false,
-        credentialsId: 'dcos-token',
+        credentialsId: 'TzLJ6h5SXZTRrxzV',
         filename: 'marathon.json',
         appId: 'nginx-mbb2kn7qss3pfpxy',
         docker: "mbb2kn7qss3pfpxy/mesos-tutorial:${gitCommit()}".toString()
