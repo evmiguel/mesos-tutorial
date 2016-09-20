@@ -12,7 +12,7 @@ node {
 
     // Build Docker image
     stage 'Build'
-    sh "docker build -t evmiguel/mesos-tutorial:${gitCommit()} ."
+    sh "docker build -t mbb2kn7qss3pfpxy/mesos-tutorial:${gitCommit()} ."
 
     // Log in and push image to GitLab
     stage 'Publish'
@@ -25,6 +25,6 @@ node {
         ]]
     ) {
         sh "docker login -u ${env.DOCKERHUB_USERNAME} -p ${env.DOCKERHUB_PASSWORD} -e demo@mesosphere.com"
-        sh "docker push evmiguel/mesos-tutorial:${gitCommit()}"
+        sh "docker push mbb2kn7qss3pfpxy/mesos-tutorial:${gitCommit()}"
     }
 }
