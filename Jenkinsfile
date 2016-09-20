@@ -19,7 +19,7 @@ node {
     withCredentials(
         [[
             $class: 'UsernamePasswordMultiBinding',
-            credentialsId: 'TzLJ6h5SXZTRrxzV',
+            credentialsId: 'dcos-token',
             passwordVariable: 'DOCKERHUB_PASSWORD',
             usernameVariable: 'DOCKERHUB_USERNAME'
         ]]
