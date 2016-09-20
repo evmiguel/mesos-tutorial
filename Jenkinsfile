@@ -35,7 +35,7 @@ node {
         forceUpdate: false,
         credentialsId: 'TzLJ6h5SXZTRrxzV',
         filename: 'marathon.json',
-        appId: 'nginx-mbb2kn7qss3pfpxy',
+        appId: 'nginx-5hLtq4X6nqvYKQQS',
         docker: "mbb2kn7qss3pfpxy/mesos-tutorial:${gitCommit()}".toString()
     )
 }

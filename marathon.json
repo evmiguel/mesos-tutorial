@@ -1,5 +1,5 @@
 {
-  "id": "/nginx-mBb2kn7QsS3pFPXY",
+  "id": "/nginx-5hLtq4X6nqvYKQQS",
   "cpus": 1,
   "mem": 128,
   "instances": 1,
@@ -30,6 +30,6 @@
   "labels": {
     "DCOS_SERVICE_PORT_INDEX": "0",
     "DCOS_SERVICE_SCHEME": "http",
-    "DCOS_SERVICE_NAME": "nginx-mBb2kn7QsS3pFPXY"
+    "DCOS_SERVICE_NAME": "nginx-5hLtq4X6nqvYKQQS"
   }
 }
